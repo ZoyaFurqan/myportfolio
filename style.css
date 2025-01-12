@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:black;
+background-color: black;
+margin: 0;
+font-size: 30px;
+background: #007BFF url('https://png.pngtree.com/thumb_back/fh260/background/20210326/pngtree-light-blue-cute-striped-baby-blue-background-image_594858.jpg') top center repeat-y; 
+background-size: 100%; 
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color:#007BFF;
+    padding: 25px ;
+    gap: 40%;
+   
+    
+}
+.navbar-item{
+display: flex;
+justify-content: space-around;
+position: relative;
+margin-top: 30px;
+gap: 30%;
+
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+a:hover {
+    color:#08284b ;
+}
+#home{
+    text-align: center;
+}
+#about{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+   
+}
+.project {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+  
+}
+.project:hover{
+    box-shadow:  5px 5px 5px #0056b3, -5px -5px 5px #007BFF;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+#contact .container{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+.section{
+    border-bottom: 1px solid #007BFF;
+}
+span{
+    color: #0056b3;
+}
+
+
+
+
+
